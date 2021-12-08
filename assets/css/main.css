@@ -1,92 +1,96 @@
 /* element selectors by parent */
 body {
-    margin: 0;
-    font-family:Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .ai-c {
-    align-items: center;
+  align-items: center;
 }
 
 /* class in alpha order */
 .bgc-boringblue {
-    background-color: rgb(37, 137, 189);
+  background-color: rgb(37, 137, 189);
 }
 
 .bgc-lightgrey {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .bgc-royalblue {
-    background-color: royalblue;
+  background-color: royalblue;
 }
 
-.bgc-steelblue { 
-    background-color: steelblue;
+.bgc-steelblue {
+  background-color: steelblue;
 }
 
 .c-white {
-    color: white
+  color: white;
 }
 
 .d-f {
-    display: flex;
+  display: flex;
 }
 
-.ff-impact{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.ff-impact {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .fz-2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .fw-700 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .jc-sb {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .lis-n {
-    list-style: none;
+  list-style: none;
 }
 
 .m0 {
-    margin: 0;
+  margin: 0;
 }
 
 .ml {
-    margin-left: 1.5rem;
+  margin-left: 1.5rem;
 }
 
 .mt {
-    margin-top: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .p0 {
-    padding: 0;
+  padding: 0;
 }
 
 .p {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
 
 .w-100 {
-    width: 100%;
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 /* media query */
 @media (min-width: 768px) {
-    .d-f\@lrg {
-        display: flex;
-    }
+  .d-f\@lrg {
+    display: flex;
+  }
 }
- .ml\@lrg {
-     margin-left: 1.5rem;
+.ml\@lrg {
+  margin-left: 1.5rem;
 }
